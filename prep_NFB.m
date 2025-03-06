@@ -333,7 +333,8 @@ function pb_runLocTask_Callback(hObject, eventdata, handles)
         return
      else
 %         flicker_RightLeft_ce(subID, projFolder)
-        flicker_RightLeft_ce_Gabor(subID, projFolder, 1, 1);
+%         flicker_RightLeft_ce_Gabor(subID, projFolder, 1, 1);
+        flicker_RightLeft_ce_Gabor_neglect(subID, projFolder, 1, 0);
 %         run_V1_loc_flicker_fmri(subID, projFolder)
     end
     
